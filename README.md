@@ -1,5 +1,9 @@
 # AWS Fully Serverless Architecture with CI/CD
 
+**Architecture:**
+
+![](https://miro.medium.com/v2/resize:fit:1146/1*NN5kTCl1ljuIJ-2dfT7bMQ.gif)
+
 ## **Introduction:**
 
 Enter the world of serverless computing, where developers are freed from server management. Deploying code becomes a breeze, with a focus on deploying functions rather than wrestling with servers. Originally synonymous with FaaS, serverless technology began with **AWS Lambda** from **Amazon Web Services**. It has now evolved to cover various managed services like databases and storage, expanding its scope beyond its initial function-centric approach.
@@ -10,9 +14,6 @@ In this article, we’ll explore a practical example of a Fully Serverless Archi
 
 I have a NodeJS Cloud Native API which I have used to deploy in this architecture. This API is specifically designed to make use of AWS serverless services.
 
-**Architecture:**
-
-![](https://miro.medium.com/v2/resize:fit:1146/1*NN5kTCl1ljuIJ-2dfT7bMQ.gif)
 
 The aim of this project is to deploy API to AWS Public cloud using only serverless components.
 
@@ -241,24 +242,3 @@ PUT /v1/product/{productId}
 ```
 
 ---
-
-## 🛠️ Author & Community  
-
-This project is crafted by **[Harshhaa](https://github.com/NotHarshhaa)** 💡.  
-I’d love to hear your feedback! Feel free to share your thoughts.  
-
-📧 **Connect with me:**
-
-- **GitHub**: [@NotHarshhaa](https://github.com/NotHarshhaa)
-- **Blog**: [ProDevOpsGuy](https://blog.prodevopsguy.xyz)  
-- **Telegram Community**: [Join Here](https://t.me/prodevopsguy)  
-
----
-
-## ⭐ Support the Project  
-
-If you found this helpful, consider **starring** ⭐ the repository and sharing it with your network! 🚀  
-
-### 📢 Stay Connected  
-
-![Follow Me](https://imgur.com/2j7GSPs.png)
